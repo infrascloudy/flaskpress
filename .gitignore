@@ -49,5 +49,7 @@ htmlcov
 output/*.html
 output/*/index.html
 
+.idea/
+
 # Sphinx
 docs/_build
