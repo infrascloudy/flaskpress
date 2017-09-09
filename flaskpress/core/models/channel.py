@@ -206,5 +206,4 @@ class Channeling(object):
 
 
 class ChannelingNotRequired(Channeling):
-    channel = db.ReferenceField(Channel, required=False,
-                                reverse_delete_rule=db.NULLIFY)
+    channel = db.ReferenceField(Channel, required=False, reverse_delete_rule=db.NULLIFY)
