@@ -11,6 +11,7 @@ Flask-Mistune
 flask-mongoengine
 Flask-OAuthlib
 flask-security
+flask_weasyprint
 pillow
 pyrss2gen
 requests
