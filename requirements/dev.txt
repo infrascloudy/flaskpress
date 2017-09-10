@@ -1,0 +1,4 @@
+Flask-DebugToolbar
+ipython
+ipdb
+opbeat

@@ -1,0 +1,14 @@
+coveralls
+mock
+pytest
+pytest-cov
+pytest-flask
+pytest-sugar
+Flask-Testing
+
+flake8
+pep8-naming
+flake8-debugger
+flake8-print
+flake8-todo
+radon
