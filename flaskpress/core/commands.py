@@ -65,7 +65,6 @@ def populate(filename, baseurl=None, reset=False):
 @click.command()
 def showconfig():
     """click.echo all Flaskpress config variables"""
-    from pprint import pprint
     click.echo("Config.")
     pprint(dict(app.config.store))
 
