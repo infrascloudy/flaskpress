@@ -12,7 +12,7 @@ from flaskpress.core import TEXT_FORMATS
 from flaskpress.core.admin.utils import _l
 from flaskpress.core.db import db
 from flaskpress.core.models.custom_values import HasCustomValue
-from flaskpress.settings import get_setting_value
+from flaskpress.utils.settings import get_setting_value
 from flaskpress.utils import get_current_user_for_models
 
 

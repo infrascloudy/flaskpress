@@ -13,7 +13,7 @@ from flaskpress.core.models.channel import Channeling
 from flaskpress.core.models.custom_values import HasCustomValue
 from flaskpress.core.models.signature import Tagged, Publishable, LongSlugged, ContentFormat, TemplateType
 from flaskpress.core.models.subcontent import SubContent
-from flaskpress.settings import get_setting_value, get_site_url
+from flaskpress.utils.settings import get_setting_value, get_site_url
 
 logger = logging.getLogger()
 
