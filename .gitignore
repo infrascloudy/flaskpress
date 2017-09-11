@@ -50,6 +50,7 @@ output/*.html
 output/*/index.html
 
 .idea/
+.cache/
 
 # Sphinx
 docs/_build
