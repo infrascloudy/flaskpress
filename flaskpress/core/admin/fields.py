@@ -73,4 +73,3 @@ class ContentImageField(ImageUploadField):
 
             obj.contents.append(subcontent)
             obj.save()
-

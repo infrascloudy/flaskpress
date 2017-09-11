@@ -7,6 +7,7 @@ from flaskpress.core.admin.utils import _, _l
 from flaskpress.core.admin.ajax import AjaxModelLoader
 from flaskpress.core.admin.models import BaseIndexView, BaseView, ModelAdmin, BaseContentAdmin, ContentActions, PublishActions
 
+
 class IndexView(BaseIndexView):
     roles_accepted = ('admin', 'editor', 'moderator', 'writer', 'staff',
                       'author')
@@ -25,6 +26,7 @@ class InspectorView(BaseView):
             "app": current_app
         }
         return self.render('admin/inspector.html', **context)
+
 
 class LinkAdmin(BaseContentAdmin):
     roles_accepted = ('admin', 'editor', 'writer', 'moderator', 'author')

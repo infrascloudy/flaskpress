@@ -260,7 +260,7 @@ BABEL_DEFAULT_LOCALE = 'en'
 CSRF_ENABLED = True
 """
 It is good to use uuid here
-$ python -c "from uuid import uuid4;print('%s%s' % (uuid4().hex, uuid4().hex))""
+$ python -c "from uuid import uuid4;print('%s%s' % (uuid4().hex, uuid4().hex))"
 """
 CSRF_SESSION_KEY = "somethingimpossibletoguess"
 

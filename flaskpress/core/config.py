@@ -16,12 +16,7 @@ class FlaskpressConfig(Config):
     @cached_property_ttl(300)
     def all_setings_from_db(self):
         try:
-            return {
-                item.name: item.value
-                for item in m.config.Config.objects.get(
-                group='settings'
-            ).values
-            }
+            return {item.name: item.value for item in m.config.Config.objects.get(group='settings').values}
         except Exception as e:
             logger.warning('Error reading all settings from db: %s' % e)
             return {}
@@ -68,7 +63,3 @@ class FlaskpressConfig(Config):
         self.from_envvar(path, silent=True)
         self.from_envvar_namespace(namespace='FLASKPRESS', silent=True)
         self.update(sets)
-
-
-
-
