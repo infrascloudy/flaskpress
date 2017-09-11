@@ -1,0 +1,29 @@
+pylint:
+  disable:
+    - bare-except
+    - unused-argument
+    - pointless-string-statement
+    - too-many-locals
+    - too-many-arguments
+    - protected-access
+    - unused-variable
+    - super-on-old-class
+
+pep8:
+  disable:
+    - E1002
+
+ignore-paths:
+    - docs
+    - flaskpress/static
+    - flaskpress/babel
+    - flaskpress/templates
+    - flaskpress/mediafiles
+    - flaskpress/translations
+    - flaskpress/themes
+    - etc
+    - .openshift
+
+requirements:
+    - requirements/requirements.txt
+    - requirements/test.txt

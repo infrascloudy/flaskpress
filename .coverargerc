@@ -1,0 +1,7 @@
+[run]
+source = flaskpress
+
+[report]
+omit =
+    */python?.?/*
+    */site-packages/nose/*
