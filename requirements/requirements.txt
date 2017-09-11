@@ -1,5 +1,5 @@
 Flask
-flaskpress-flask-admin
+git+https://github.com/infrascloudy/flaskpress-flask-admin.git
 flaskpress-themes
 flaskpress-flask-htmlbuilder
 awesome-slugify
