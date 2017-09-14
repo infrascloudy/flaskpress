@@ -5,7 +5,7 @@ from .views import AuthorListView, AuthorView
 from .utils import get_author, get_authors, get_author_contents
 
 
-module = QuokkaModule("authors", __name__, template_folder="templates")
+module = FlaskpressModule("authors", __name__, template_folder="templates")
 module.add_url_rule('/author/<author_id>/',
                     view_func=AuthorView.as_view('author'))
 module.add_url_rule('/authors/',

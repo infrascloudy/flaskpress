@@ -12,7 +12,7 @@ def get_author_contents(author):
         published=True,
         available_at__lte=now,
         model__not__startswith="media."
-    ).filter(model__not__startswith="quokka.link").filter(
+    ).filter(model__not__startswith="flaskpress.link").filter(
         __raw__={
             "$or": [
                 {"created_by": author.id},
